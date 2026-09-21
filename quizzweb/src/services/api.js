@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://backend-rosy-nine-54.vercel.app/'
+const API_BASE = import.meta.env.VITE_API_URL || 'https://backend-82le.vercel.app/'
 
 const createApi = (tokenKey) => {
   const instance = axios.create({ baseURL: API_BASE, timeout: 15000 })
