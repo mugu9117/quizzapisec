@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "Which keyword is used to define a function in Python?",
+    "options": ["function", "def", "fun", "define"],
+    "answer": "def"
+  },
+  {
+    "id": 2,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "Which symbol is used for single-line comments in Python?",
+    "options": ["//", "#", "/*", "--"],
+    "answer": "#"
+  },
+  {
+    "id": 3,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "Which data type is used to store True or False in Python?",
+    "options": ["bool", "boolean", "flag", "logic"],
+    "answer": "bool"
+  },
+  {
+    "id": 4,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "What does len(\"quiz\") return?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "id": 5,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which function converts a string to an integer in Python?",
+    "options": ["str()", "int()", "float()", "char()"],
+    "answer": "int()"
+  },
+  {
+    "id": 6,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "How do you create a list in Python?",
+    "options": ["(1, 2, 3)", "[1, 2, 3]", "{1, 2, 3}", "<1, 2, 3>"],
+    "answer": "[1, 2, 3]"
+  },
+  {
+    "id": 7,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "What is the output of 5 // 2 in Python?",
+    "options": ["2.5", "2", "3", "1.5"],
+    "answer": "2"
+  },
+  {
+    "id": 8,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "Which keyword creates a loop that repeats while a condition is true?",
+    "options": ["for", "while", "do", "repeat"],
+    "answer": "while"
+  },
+  {
+    "id": 9,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which method removes the last item from a Python list?",
+    "options": ["pop()", "push()", "remove()", "last()"],
+    "answer": "pop()"
+  },
+  {
+    "id": 10,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "What is the correct file extension for Python source files?",
+    "options": [".pyth", ".pt", ".py", ".python"],
+    "answer": ".py"
+  },
+  {
+    "id": 11,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "Which function is used to print output in Python?",
+    "options": ["print()", "echo()", "write()", "show()"],
+    "answer": "print()"
+  },
+  {
+    "id": 12,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "What is the output of 2 ** 3 in Python?",
+    "options": ["6", "8", "9", "23"],
+    "answer": "8"
+  },
+  {
+    "id": 13,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "Which keyword is used to import modules in Python?",
+    "options": ["include", "import", "use", "from"],
+    "answer": "import"
+  },
+  {
+    "id": 14,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which Python collection stores only unique values?",
+    "options": ["list", "set", "tuple", "dict"],
+    "answer": "set"
+  },
+  {
+    "id": 15,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "What does the append() method do on a Python list?",
+    "options": ["Adds an item at the end", "Adds an item at the start", "Removes the last item", "Sorts the list"],
+    "answer": "Adds an item at the end"
+  },
+  {
+    "id": 16,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which operator joins (concatenates) two strings in Python?",
+    "options": ["+", "&", ".", "::"],
+    "answer": "+"
+  },
+  {
+    "id": 17,
+    "language": "python",
+    "difficulty": "Intermediate",
+    "question": "What is the result of float(3) in Python?",
+    "options": ["3.0", "3", "3.00", "0.3"],
+    "answer": "3.0"
+  },
+  {
+    "id": 18,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to catch errors in Python?",
+    "options": ["catch", "try", "error", "fail"],
+    "answer": "try"
+  },
+  {
+    "id": 19,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which function is used to get the length of a Python string?",
+    "options": ["len()", "size()", "count()", "length()"],
+    "answer": "len()"
+  },
+  {
+    "id": 20,
+    "language": "python",
+    "difficulty": "Basic",
+    "question": "What is the index of the first item in a Python list?",
+    "options": ["0", "1", "-1", "None"],
+    "answer": "0"
+  },
+  {
+    "id": 21,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to exit a Python loop immediately?",
+    "options": ["break", "exit", "stop", "return"],
+    "answer": "break"
+  },
+  {
+    "id": 22,
+    "language": "python",
+    "difficulty": "Intermediate",
+    "question": "How do you define a dictionary in Python?",
+    "options": ["{ \"key\": \"value\" }", "[ \"key\": \"value\" ]", "( \"key\": \"value\" )", "< \"key\": \"value\" >"],
+    "answer": "{ \"key\": \"value\" }"
+  },
+  {
+    "id": 23,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which function returns the smallest number from a group in Python?",
+    "options": ["min()", "low()", "small()", "least()"],
+    "answer": "min()"
+  },
+  {
+    "id": 24,
+    "language": "python",
+    "difficulty": "Intermediate",
+    "question": "What values does range(3) produce in Python?",
+    "options": ["0, 1, 2", "1, 2, 3", "0, 1, 2, 3", "1, 2"],
+    "answer": "0, 1, 2"
+  },
+  {
+    "id": 25,
+    "language": "python",
+    "difficulty": "Easy",
+    "question": "Which keyword is used as a placeholder that does nothing in Python?",
+    "options": ["skip", "pass", "none", "omit"],
+    "answer": "pass"
+  },
+  {
+    "id": 26,
+    "language": "java",
+    "difficulty": "Basic",
+    "question": "Which keyword is used to define a class in Java?",
+    "options": ["class", "struct", "object", "def"],
+    "answer": "class"
+  },
+  {
+    "id": 27,
+    "language": "java",
+    "difficulty": "Basic",
+    "question": "What is the entry point method of a Java program?",
+    "options": ["start()", "main()", "run()", "begin()"],
+    "answer": "main()"
+  },
+  {
+    "id": 28,
+    "language": "java",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to declare a constant variable in Java?",
+    "options": ["const", "final", "static", "fixed"],
+    "answer": "final"
+  },
+  {
+    "id": 29,
+    "language": "java",
+    "difficulty": "Basic",
+    "question": "Which data type is used to store a single character in Java?",
+    "options": ["char", "int", "string", "boolean"],
+    "answer": "char"
+  },
+  {
+    "id": 30,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which keyword is used by a class to inherit another class in Java?",
+    "options": ["inherits", "extends", "implements", "uses"],
+    "answer": "extends"
+  },
+  {
+    "id": 31,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "What is the default value of a boolean in Java?",
+    "options": ["true", "false", "0", "null"],
+    "answer": "false"
+  },
+  {
+    "id": 32,
+    "language": "java",
+    "difficulty": "Basic",
+    "question": "Which keyword is used to create an object in Java?",
+    "options": ["new", "create", "object", "make"],
+    "answer": "new"
+  },
+  {
+    "id": 33,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which Java collection stores key-value pairs?",
+    "options": ["ArrayList", "HashMap", "HashSet", "LinkedList"],
+    "answer": "HashMap"
+  },
+  {
+    "id": 34,
+    "language": "java",
+    "difficulty": "Easy",
+    "question": "Which keyword is used to handle an exception in Java?",
+    "options": ["catch", "except", "error", "solve"],
+    "answer": "catch"
+  },
+  {
+    "id": 35,
+    "language": "java",
+    "difficulty": "Easy",
+    "question": "What is the output of 10 % 3 in Java?",
+    "options": ["3", "1", "0", "3.33"],
+    "answer": "1"
+  },
+  {
+    "id": 36,
+    "language": "java",
+    "difficulty": "Basic",
+    "question": "Which method prints a line of text in Java?",
+    "options": ["print()", "echo()", "println()", "show()"],
+    "answer": "println()"
+  },
+  {
+    "id": 37,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which keyword allows a method to be called without creating an object in Java?",
+    "options": ["static", "void", "final", "public"],
+    "answer": "static"
+  },
+  {
+    "id": 38,
+    "language": "java",
+    "difficulty": "Basic",
+    "question": "Which data type in Java stores whole numbers without decimals?",
+    "options": ["int", "float", "char", "boolean"],
+    "answer": "int"
+  },
+  {
+    "id": 39,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which keyword refers to the current object in Java?",
+    "options": ["this", "self", "me", "current"],
+    "answer": "this"
+  },
+  {
+    "id": 40,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which property is used to get the length of a Java array?",
+    "options": ["length", "size()", "len()", "count()"],
+    "answer": "length"
+  },
+  {
+    "id": 41,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which method is used to compare two strings for equality in Java?",
+    "options": ["equals()", "equal()", "same()", "isEqual()"],
+    "answer": "equals()"
+  },
+  {
+    "id": 42,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which keyword prevents a class from being inherited in Java?",
+    "options": ["final", "private", "static", "abstract"],
+    "answer": "final"
+  },
+  {
+    "id": 43,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "What is the parent class of every class in Java?",
+    "options": ["Object", "Class", "Main", "System"],
+    "answer": "Object"
+  },
+  {
+    "id": 44,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which Java loop always runs its body at least once?",
+    "options": ["for", "while", "do-while", "for-each"],
+    "answer": "do-while"
+  },
+  {
+    "id": 45,
+    "language": "java",
+    "difficulty": "Basic",
+    "question": "Which keyword is used to send a value back from a Java method?",
+    "options": ["return", "stop", "break", "exit"],
+    "answer": "return"
+  },
+  {
+    "id": 46,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which wrapper class is used for int values in Java?",
+    "options": ["Integer", "Int", "intObject", "Number"],
+    "answer": "Integer"
+  },
+  {
+    "id": 47,
+    "language": "java",
+    "difficulty": "Intermediate",
+    "question": "Which keyword calls the constructor of the parent class in Java?",
+    "options": ["super", "parent", "base", "this"],
+    "answer": "super"
+  },
+  {
+    "id": 48,
+    "language": "java",
+    "difficulty": "Easy",
+    "question": "What does the void keyword mean in a Java method?",
+    "options": ["Returns nothing", "Returns a number", "Throws no error", "Takes no input"],
+    "answer": "Returns nothing"
+  },
+  {
+    "id": 49,
+    "language": "java",
+    "difficulty": "Easy",
+    "question": "Which keyword defines a case inside a Java switch statement?",
+    "options": ["case", "switch", "select", "option"],
+    "answer": "case"
+  },
+  {
+    "id": 50,
+    "language": "java",
+    "difficulty": "Easy",
+    "question": "Which of these is a valid Java package declaration?",
+    "options": ["package com.example;", "import com.example;", "include com.example;", "using com.example;"],
+    "answer": "package com.example;"
+  }
+]
