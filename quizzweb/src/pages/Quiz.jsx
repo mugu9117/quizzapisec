@@ -309,6 +309,17 @@ export default function Quiz() {
 
   const selectFn = (option) => handleSelect(questions[current]?.id, option)
 
+  const jumpTo = (i) => {
+    setCurrent(i)
+    if (window.matchMedia('(max-width: 1024px)').matches) {
+      requestAnimationFrame(() => {
+        document
+          .querySelector('.question-card')
+          ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      })
+    }
+  }
+
   const answeredCount = Object.keys(answers).length
   const progressPct = questions.length ? (answeredCount / questions.length) * 100 : 0
 
@@ -407,8 +418,18 @@ export default function Quiz() {
 
         <aside className="quiz-side">
           <div className="card nav-card">
-            <div className="nav-card-title">Question Navigator</div>
-            <QuestionNavigator total={questions.length} answered={answeredFlags} current={current} onSelect={setCurrent} />
+            <div className="nav-card-head">
+              <span className="nav-card-title">Questions</span>
+              <span className="nav-card-count">
+                {answeredFlags.filter(Boolean).length}/{questions.length} Answered
+              </span>
+            </div>
+            <QuestionNavigator
+              total={questions.length}
+              answered={answeredFlags}
+              current={current}
+              onSelect={jumpTo}
+            />
             <div className="nav-legend">
               <span className="legend-item">
                 <span className="legend-swatch answered" /> Answered
@@ -423,16 +444,6 @@ export default function Quiz() {
           </div>
         </aside>
       </main>
-
-      <div className="nav-strip" aria-label="Question navigator">
-        <div className="nav-strip-label">
-          <span>Questions</span>
-          <span className="nav-strip-count">{answeredFlags.filter(Boolean).length}/{questions.length} answered</span>
-        </div>
-        <div className="nav-strip-inner">
-          <QuestionNavigator total={questions.length} answered={answeredFlags} current={current} onSelect={setCurrent} />
-        </div>
-      </div>
 
       {/* violation warning modal */}
       <Modal open={!!warning} title="Exam Warning" icon="warning" onClose={null}>
